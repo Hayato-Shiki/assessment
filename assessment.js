@@ -25,7 +25,7 @@ assessmentButton.addEventListener(
     const hrefValue = `https://twitter.com/intent/tweet?button_hashtag=${encodeURIComponent('あなたのいいところ')}&ref_src=twsrc%5Etfw`;
     anchor.setAttribute('href', hrefValue);
     anchor.setAttribute('class', 'twitter-hashtag-button');
-    anchor.setAttribute('data-text', result);
+    anchor.setAttribute('data-text', `${result}\nhttps://Hayato-Shiki.github.io/assessment/assessment.html`);
     anchor.innerText = 'Tweet #あなたのいいところ';
     tweetDivision.appendChild(anchor);
 
